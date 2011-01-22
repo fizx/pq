@@ -10,5 +10,5 @@ class PQProject(info: ProjectInfo) extends DefaultProject(info) {
   val specs = "org.scala-tools.testing" % "specs_2.8.0" % "1.6.5" % "test"
   
   val scalatools = "Scala Tools" at "http://scala-tools.org/repo-releases/"
-  val twitter = "Scala Tools" at "http://maven.twttr.com/"
+  val twitter = "Twitter" at "http://maven.twttr.com/"
 }
