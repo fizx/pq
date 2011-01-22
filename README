@@ -1,0 +1,1 @@
+This is an extraction of the core functionality of Twitter's kestrel queue system.  It should also work on scala 2.8.0.
