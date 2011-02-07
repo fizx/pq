@@ -14,4 +14,6 @@ class PQProject(info: ProjectInfo) extends StandardProject(info)
   
   val scalatools = "Scala Tools" at "http://scala-tools.org/repo-releases/"
   val twitter = "Twitter" at "http://maven.twttr.com/"
+
+  override def subversionRepository = Some("http://svn.local.twitter.com/maven-public")
 }
